@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homigo - Submit Listing</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Homigo</h1>
+      <nav>
+        <a href="Home.html">Home</a>
+        <a href="available_listing.html">Listings</a>
+        <a href="about.html">About</a>
+      </nav>
+    </header>
+
+    <div class="main-content">
+      <div class="form-card">
+        <h2>Submit Your Listing</h2>
+
+        <form action="" method="post">
+          <div class="form-group">
+            <label for="img">Listing Photo</label>
+            <input type="file" id="img" name="img" accept="image/*" />
+          </div>
+
+          <div class="form-group">
+            <label for="loc">Location</label>
+            <select id="loc" name="loc" required>
+              <option value="">-- Select Location --</option>
+              <option value="loc1">Vancouver</option>
+              <option value="loc2">Burnaby</option>
+              <option value="loc3">North Vancouver</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="street">Street Address</label>
+            <input type="text" id="street" name="street" placeholder="e.g., 123 Main St" required />
+          </div>
+
+          <div class="form-group">
+            <label for="city">City</label>
+            <input type="text" id="city" name="city" placeholder="e.g., Vancouver" required />
+          </div>
+
+          <div class="form-group">
+            <label for="neighborhood">Neighborhood</label>
+            <input type="text" id="neighborhood" name="neighborhood" placeholder="e.g., Kitsilano" />
+          </div>
+
+          <div class="form-group">
+            <label for="postal">Postal Code</label>
+            <input type="text" id="postal" name="postal" placeholder="e.g., V6B 1A1" required />
+          </div>
+
+          <div class="form-group">
+            <label for="room">Rooms</label>
+            <select id="room" name="room" required>
+              <option value="">-- Select Rooms --</option>
+              <option value="room1">1 Bedroom</option>
+              <option value="room2">2 Bedrooms</option>
+              <option value="room3">3+ Bedrooms</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="price">Monthly Price</label>
+            <input
+              type="number"
+              id="price"
+              name="price"
+              placeholder="e.g., 1800"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="desc">Description</label>
+            <textarea
+              id="desc"
+              name="desc"
+              rows="4"
+              placeholder="Describe your property details and features..."
+              required
+            ></textarea>
+          </div>
+
+          <input type="submit" value="Submit Listing" />
+        </form>
+      </div>
+    </div>
+    <footer>
+      <p>Copyright © 2025 Homigo | All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>

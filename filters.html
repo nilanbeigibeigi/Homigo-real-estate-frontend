@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homigo - Filters</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Homigo</h1>
+      <nav>
+        <a href="Home.html">Home</a>
+        <a href="available_listing.html">Listings</a>
+        <a href="about.html">About</a>
+        <a href="Register.html" class="nav-button">Register</a>
+      </nav>
+    </header>
+
+    <div class="main-content">
+      <div class="form-card">
+        <h2>Search Filters</h2>
+
+        <form action="" method="post">
+          <div class="form-group filter-group">
+            <label for="prange">Price Range</label>
+            <input
+              type="range"
+              id="prange"
+              name="prange"
+              min="500"
+              max="2500"
+              class="price-range"
+            />
+            <p class="price-range-label">
+              $500 to $2500+
+            </p>
+          </div>
+
+          <div class="form-group">
+            <label for="loc">Location</label>
+            <select id="loc" name="loc">
+              <option value="loc1">Vancouver</option>
+              <option value="loc2">Burnaby</option>
+              <option value="loc3">North Vancouver</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="room">Rooms</label>
+            <select id="room" name="room">
+              <option value="room1">1 Bedroom</option>
+              <option value="room2">2 Bedrooms</option>
+              <option value="room3">3+ Bedrooms</option>
+            </select>
+          </div>
+
+          <input type="submit" value="Apply Filters" class="apply-filters" />
+
+          <div class="form-group reset-group">
+            <input
+              type="button"
+              value="Reset Filters"
+              class="reset-button"
+            />
+          </div>
+
+          <div class="listing-link">
+            <a href="submit_listing.html">Listing Your Place?</a>
+          </div>
+        </form>
+      </div>
+    </div>
+    <footer>
+      <p>Copyright © 2025 Homigo | All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
