@@ -1,40 +1,33 @@
-# Homigo – Real Estate Platform (Frontend Prototype)
+# Hi, I'm Nilan 👋
 
-A web-based real estate platform designed to help users browse, filter, and manage property listings.
+AI & Information Management student at BCIT (Vancouver, Canada). I build full-stack web apps, AI tools, and automation systems that solve real problems.
 
-## 🧠 Project Overview
-Homigo is a frontend prototype of a scalable real estate platform. It focuses on user experience, clean UI design, and core platform features such as listings, filtering, and user interaction.
+## 🚀 Featured Project — Homigo
 
-## ✨ Features
-- User registration and login interface  
-- Property listing pages  
-- Search and filtering system  
-- Listing submission interface  
-- Account management (change password)  
-- Responsive and structured UI  
+**Live demo:** https://homigoweb-bcit-ayh6a5ghc0hufgb9.canadacentral-01.azurewebsites.net
 
-## ⚙️ Tech Stack
-- HTML  
-- CSS  
+A student housing platform built for the BCIT community. Connects students directly with verified property owners — no agents, no surprises.
 
-## 🏗️ Project Structure
-- `Home.html` → main landing page  
-- `listing.html` → property listing details  
-- `available_listing.html` → available properties  
-- `filters.html` → search & filtering system  
-- `submit_listing.html` → add new property  
-- `Register.html` → user registration  
-- `Change_password.html` → account management  
-- `style.css` → styling and layout  
+**Tech stack:** ASP.NET Core 8 · Razor Pages · Entity Framework Core · Azure SQL · Azure App Service · Bootstrap 5 · Leaflet.js
 
-## 🎯 Purpose
-This project demonstrates the design and structure of a real estate platform before backend and AI integration.
+**Features:** identity-based authentication, role-based authorization, listings CRUD with data ownership, admin owner directory, interactive map of properties, photo galleries, tenant reviews.
 
-## 🚀 Future Improvements
-- Backend integration (database + authentication)
-- AI-based property recommendations
-- Smart search (voice / NLP)
-- User dashboard with saved listings
+Built as the final IEP for BSYS 4000 with my team.
 
-## 💡 Vision
-The goal is to evolve this platform into a full AI-powered real estate system that provides intelligent recommendations and personalized user experiences.
+## 🛠️ What I work with
+
+- **Languages:** C#, Python, JavaScript, SQL, HTML, CSS
+- **Web:** ASP.NET Core, Razor Pages, Bootstrap, Tailwind
+- **Data:** SQL Server, PostgreSQL, Power BI, Excel, Access
+- **AI / ML:** prompt engineering, AI integration in apps, machine learning concepts
+- **Cloud:** Azure (App Service, SQL Database)
+- **Automation:** n8n, custom scripts
+
+## 🎯 What I'm building toward
+
+Becoming an AI Analyst and full-stack builder who ships real products. I learn by building.
+
+## 📫 Reach me
+
+- Email: nilan.beigi.beigi@gmail.com
+- Live demo: [Homigo](https://homigoweb-bcit-ayh6a5ghc0hufgb9.canadacentral-01.azurewebsites.net)
